@@ -2727,6 +2727,11 @@
         },
         "cache_read_input_token": {
           "price": 0.00005
+        },
+        "additional_units": {
+          "cache_write_1h": {
+            "price": 0.001
+          }
         }
       },
       "batch_config": {
@@ -2753,6 +2758,11 @@
         },
         "cache_read_input_token": {
           "price": 0.00005
+        },
+        "additional_units": {
+          "cache_write_1h": {
+            "price": 0.001
+          }
         }
       },
       "batch_config": {
