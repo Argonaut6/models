@@ -1708,6 +1708,10 @@
       "primary": "chat"
     }
   },
+  "deepseek.v3.2": {
+    "params": [{ "key": "max_tokens", "maxValue": 8192 }],
+    "type": { "primary": "chat", "supported": ["tools"] }
+  },
   "stability.sd3-5-large-v1": {
     "type": {
       "primary": "image"
@@ -4147,6 +4151,34 @@
     "type": {
       "primary": "chat",
       "supported": ["image", "tools"]
+    },
+    "removeParams": ["top_p", "temperature"]
+  },
+  "anthropic.claude-opus-4-7": {
+    "type": {
+      "primary": "chat",
+      "supported": ["tools", "image"]
+    },
+    "removeParams": ["top_p", "temperature"]
+  },
+  "us.anthropic.claude-opus-4-7": {
+    "type": {
+      "primary": "chat",
+      "supported": ["tools", "image"]
+    },
+    "removeParams": ["top_p", "temperature"]
+  },
+  "eu.anthropic.claude-opus-4-7": {
+    "type": {
+      "primary": "chat",
+      "supported": ["tools", "image"]
+    },
+    "removeParams": ["top_p", "temperature"]
+  },
+  "global.anthropic.claude-opus-4-7": {
+    "type": {
+      "primary": "chat",
+      "supported": ["tools", "image"]
     },
     "removeParams": ["top_p", "temperature"]
   }
