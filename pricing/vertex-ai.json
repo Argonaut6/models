@@ -2911,7 +2911,7 @@
       }
     }
   },
-  "gemini-3.1-flash-preview": {
+  "gemini-3.1-flash-lite": {
     "pricing_config": {
       "pay_as_you_go": {
         "request_token": {
