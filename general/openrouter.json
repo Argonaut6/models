@@ -4618,6 +4618,18 @@
       }
     ]
   },
+  "anthropic/claude-sonnet-4-6": {
+    "type": {
+      "primary": "chat",
+      "supported": ["image", "tools"]
+    },
+    "params": [
+      {
+        "key": "max_tokens",
+        "maxValue": 128000
+      }
+    ]
+  },
   "qwen/qwen3.5-35b-a3b": {
     "type": {
       "primary": "chat",
