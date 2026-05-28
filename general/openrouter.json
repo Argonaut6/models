@@ -5314,6 +5314,18 @@
       }
     ]
   },
+  "anthropic/claude-opus-4.8": {
+    "type": {
+      "primary": "chat",
+      "supported": ["image", "tools"]
+    },
+    "params": [
+      {
+        "key": "max_tokens",
+        "maxValue": 128000
+      }
+    ]
+  },
   "openrouter/elephant-alpha": {
     "type": {
       "primary": "chat",
